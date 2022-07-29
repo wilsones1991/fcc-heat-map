@@ -1,0 +1,45 @@
+*, *::before, *::before, *::after {
+    box-sizing: border-box;
+}
+
+svg {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.cell:hover {
+    stroke: black;
+}
+
+.tooltip {
+    background: rgba(21, 21, 24, .9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.axis {
+    font-size: 1rem;
+}
+
+.legend-axis {
+    font-size: .8rem;
+}
+
+.label {
+    font-size: 1.2rem;
+}
