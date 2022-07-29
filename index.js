@@ -77,18 +77,6 @@ const renderHeatMap = (data) => {
 
     const legendAxis = d3.axisBottom(legendScale)
 
-    // svg.selectAll('.legend-tiles')
-    //     .data(legendArray)
-    //     .enter()
-    //     .append('rect')
-    //     .attr('id', 'legend')
-    //     .attr('class', 'legend-tiles')
-    //     .attr('x', (d, i) => legendScale(legendArray[i]))
-    //     .attr('y', h - 130)
-    //     .attr('width', legendScale.bandwidth())
-    //     .attr('height', 30)
-    //     .attr('fill', (d, i) => colorRange[i])
-
     const legend = svg.append('g')
         .attr('id', 'legend')
     
